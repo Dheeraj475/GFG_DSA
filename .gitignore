@@ -1,3 +1,6 @@
+/.metadata
+/.metadata/.plugins/org.eclipse.m2e.logback
+
 # Compiled class file
 *.class
 
