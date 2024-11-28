@@ -1,6 +1,12 @@
 /.metadata
 /.metadata/.plugins/org.eclipse.m2e.logback
 
+/.classpath
+/.project
+/.settings/org.eclipse.core.resources.prefs
+/.settings/org.eclipse.jdt.core.prefs
+
+
 # Compiled class file
 *.class
 
