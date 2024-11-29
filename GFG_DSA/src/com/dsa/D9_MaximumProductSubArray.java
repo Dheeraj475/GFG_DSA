@@ -4,7 +4,8 @@ public class D9_MaximumProductSubArray {
 	
 	public static void main(String[] args) {
 		
-		int arr [] = {-2, 6, -3, -10, 0, 2};
+//		int arr [] = {-2, 6, -3, -10, 0, 2};
+		int arr [] = {6, -3, 10, -2, 1 -5};
 		
 		int maxArr = new D9_MaximumProductSubArray().maxProduct(arr);
 		
