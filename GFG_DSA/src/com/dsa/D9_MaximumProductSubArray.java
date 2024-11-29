@@ -51,7 +51,7 @@ public class D9_MaximumProductSubArray {
 	
 	int maxProduct(int arr []) {
 		
-		int prefixProd = 1;
+		int preffixProd = 1;
 		int suffixProd = 1;
 		int maxProd = Integer.MIN_VALUE;
 		
@@ -59,18 +59,18 @@ public class D9_MaximumProductSubArray {
 		
 		for (int i = 0; i < arr.length; i++) {
 			
-			if(prefixProd == 0) {
-				prefixProd = 1;
+			if(preffixProd == 0) {
+				preffixProd = 1;
 			}
 			
 			if(suffixProd == 0) {
 				suffixProd = 1;
 			}
 			
-			prefixProd *= arr[i];
+			preffixProd *= arr[i];
 			suffixProd *= arr[n-i];
 			
-			maxProd = Math.max(maxProd, Math.max(prefixProd, suffixProd));		
+			maxProd = Math.max(maxProd, Math.max(preffixProd, suffixProd));		
 			
 		}
 		
