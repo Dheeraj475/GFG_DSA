@@ -46,7 +46,7 @@ public class D13_RemoveDuplicateFromSortedArray {
 	
 	public static void main(String[] args) {
 		
-		int[] arr = {1,1,2,2,2,3,3,4};
+		int[] arr = {1,1,2,2,2,3,3,4,5,5};
 		
 		System.out.println(new D13_RemoveDuplicateFromSortedArray().removeDuplicates1(arr));
 		
