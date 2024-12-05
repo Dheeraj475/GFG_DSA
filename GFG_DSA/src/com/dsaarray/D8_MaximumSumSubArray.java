@@ -1,4 +1,4 @@
-package com.dsa;
+package com.dsaarray;
 
 //Kadane's Algorithm
 public class D8_MaximumSumSubArray {

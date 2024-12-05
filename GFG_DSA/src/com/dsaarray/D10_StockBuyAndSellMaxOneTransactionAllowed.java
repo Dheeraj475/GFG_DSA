@@ -1,4 +1,4 @@
-package com.dsa;
+package com.dsaarray;
 
 public class D10_StockBuyAndSellMaxOneTransactionAllowed {
 
