@@ -4,7 +4,55 @@ import java.util.Arrays;
 
 public class D4_RotateAnArray {
 	
+
+	
 	public static void main(String[] args) {
+		
+		
+		//Rotate array by one place
+//		int[] arr = {4,5,32,64,23,75,3};
+//		
+//		int temp = arr[0];
+//		
+//		for (int i = 1; i < arr.length; i++) {
+//			
+//			arr[i-1] = arr[i];
+//			
+//		}
+//		
+//		arr[arr.length-1] = temp;
+//		
+//		System.out.println(Arrays.toString(arr));
+//	}
+		
+		//Brute force method by d places
+//		int[] arr = {32,53,4,2,6,44,6};
+//		
+//		int d = 3;
+//		int n = arr.length;
+//		
+//		d = d % n;
+//		int[] temp = new int[d];
+//		
+//		for (int i = 0; i < d; i++) {
+//			temp[i] = arr[i];
+//		}
+//		
+//		for (int i = d; i < arr.length; i++) {
+//			
+//			arr[i - d] = arr[i];
+//		}
+//		
+//		for (int i = n - d; i < arr.length; i++) {
+//			
+//			arr[i] = temp[i - (n - d)];
+//			
+//		}
+//		
+//		System.out.println(Arrays.toString(arr));
+//		
+//	}
+		
 		
 		
 		//Brute force method of Counter clockwise
