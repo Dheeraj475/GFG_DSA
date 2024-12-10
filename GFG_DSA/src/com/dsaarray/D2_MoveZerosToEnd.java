@@ -24,7 +24,7 @@ public class D2_MoveZerosToEnd {
 		
 		System.out.println(Arrays.toString(arr));
 		
-		// OR Optimal Solution
+		// OR Optimal Solution { TC -> O(n) }
 		System.out.println("\nOptimal Solution:");
 		
 		int arr1[] = {23,0,4,5,64,30,0,0,0,4,0,32,42,0,43,5,6,0,0,5};
